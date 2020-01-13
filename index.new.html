@@ -5,7 +5,7 @@
 <title>Ethan Aldrich</title>
 	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
 	<link href="css/indexnew.css" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
 	<link href="css/jquery.pagepiling.css" rel="stylesheet">
 </head>
 
@@ -216,6 +216,14 @@
     $('#pagepiling').pagepiling({
         verticalCentered: false,
         css3: false,
+		scrollingSpeed: 1000,
+		navigation: {
+            'textColor': 'beige',
+            'bulletsColor': '#FFF',
+            'position': 'right',
+            'tooltips': ['Home', 'About Me', 'Education', 'Skill Set', 'Work Experience', 'Portfolio', 'Contact']
+		},
+        
     });
 });
 </script>
